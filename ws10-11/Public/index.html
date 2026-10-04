@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPRU Cafe - เมนูสินค้า</title>
+    <link rel="stylesheet" href="./css/darklight.css">
+</head>
+<body>
+
+    <header class="user-bar">
+        <div class="user-info">
+            <span>ยินดีต้อนรับ: <strong id="displayName">-</strong></span>
+            <span>ธีม: <span id="displayTheme">light</span></span>
+        </div>
+        <div class="user-actions">
+            <a href="cart.html" class="nav-btn">🛒 ตะกร้าสินค้า (<span id="navCartCount">0</span>)</a>
+            <a href="admin.html" class="nav-btn">จัดการสินค้า</a>
+            <select id="switchTheme">
+                <option value="light">Light Theme</option>
+                <option value="dark">Dark Theme</option>
+            </select>
+            <button id="logoutBtn" class="btn-logout" type="button">ออกจากระบบ</button>
+        </div>
+    </header>
+
+    <div class="npru-banner">
+        <div class="banner-overlay"><img src="./img/banner.png" alt="NPRU Cafe banner" class="logo"></div>
+        <div class="banner-content"></div>
+    </div>
+
+    <div class="category-container" style="text-align: center; margin-bottom: 20px;">
+        <button class="filter-btn" id="all">All Menu</button>
+        <button class="filter-btn" id="drink">Drinks</button>
+        <button class="filter-btn" id="bakery">Bakery</button>
+    </div>
+
+    <div id="menu-container">กำลังโหลดเมนู...</div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

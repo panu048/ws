@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตะกร้าสินค้า - NPRU Cafe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header class="user-bar">
+        <div class="user-info">
+            <span>ยินดีต้อนรับ: <strong id="displayName">-</strong></span>
+        </div>
+        <div class="user-actions">
+            <a href="index.html" class="nav-btn">🏠 กลับหน้าร้านค้า</a>
+            <button id="logoutBtn" class="btn-logout">ออกจากระบบ</button>
+        </div>
+    </header>
+
+    <div class="cart-page-container">
+        <div id="cart-section" class="cart-container full-width">
+            <h2>🛒 ตะกร้าสินค้าของคุณ</h2>
+            <div id="cart-items-list">
+                <p class="empty-cart-msg">ยังไม่มีสินค้าในตะกร้า</p>
+            </div>
+            <div class="cart-summary">
+                <p>จำนวนรวม: <span id="cart-total-count">0</span> ชิ้น</p>
+                <p>ราคารวม: <strong id="cart-total-price">0.00</strong> บาท</p>
+                <button id="checkout-btn" class="checkout-btn" disabled>ชำระเงิน / สั่งซื้อ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/cart.js"></script>
+</body>
+</html>

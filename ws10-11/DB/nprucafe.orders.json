@@ -1,0 +1,354 @@
+[{
+  "_id": {
+    "$oid": "6a9f92aa0148039d066a9edb"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6a9f92aa0148039d066a9edc"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c576e16c6903b4eb2e09"
+      },
+      "name": "Americano",
+      "price": 65,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6a9f92aa0148039d066a9edd"
+      }
+    }
+  ],
+  "totalPrice": 115,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-08T04:44:26.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9f97cd0148039d066a9ede"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6a9f97cd0148039d066a9edf"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6a9f97cd0148039d066a9ee0"
+      }
+    }
+  ],
+  "totalPrice": 130,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-08T05:06:21.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9f98820148039d066a9ee1"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 2,
+      "type": "",
+      "_id": {
+        "$oid": "6a9f98820148039d066a9ee2"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6a9f98820148039d066a9ee3"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c576e16c6903b4eb2e09"
+      },
+      "name": "Americano",
+      "price": 65,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6a9f98820148039d066a9ee4"
+      }
+    }
+  ],
+  "totalPrice": 275,
+  "totalCount": 4,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-08T05:09:22.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9fb088fe05a23f7fe00764"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a9fb021fe05a23f7fe00763"
+      },
+      "name": "Coconut Cake",
+      "price": 120,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6a9fb088fe05a23f7fe00765"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6a9fb088fe05a23f7fe00766"
+      }
+    }
+  ],
+  "totalPrice": 200,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-08T06:51:52.350Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6aa22f3356009c6475857d8f"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6aa22f3356009c6475857d90"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6aa22f3356009c6475857d91"
+      }
+    }
+  ],
+  "totalPrice": 130,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-10T04:16:51.767Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab23da5cb53ef9b961c1d81"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a9f8412dc802ed46f247a17"
+      },
+      "name": "Latte",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6ab23da5cb53ef9b961c1d82"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87d610e16c6903b4eb2e11"
+      },
+      "name": "Muffin",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6ab23da5cb53ef9b961c1d83"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a9fb021fe05a23f7fe00763"
+      },
+      "name": "Coconut Cake",
+      "price": 120,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6ab23da5cb53ef9b961c1d84"
+      }
+    }
+  ],
+  "totalPrice": 250,
+  "totalCount": 3,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-22T08:34:45.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab24d1784d44e9713e95969"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6ab24d1784d44e9713e9596a"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6ab24d1784d44e9713e9596b"
+      }
+    }
+  ],
+  "totalPrice": 130,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-22T09:40:39.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab4a4c6c1e2784b180d8a8b"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a87c604e16c6903b4eb2e0d"
+      },
+      "name": "Cappuccino",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6ab4a4c6c1e2784b180d8a8c"
+      }
+    },
+    {
+      "menuId": {
+        "$oid": "6a87d56be16c6903b4eb2e0f"
+      },
+      "name": "Pie",
+      "price": 80,
+      "quantity": 1,
+      "type": "",
+      "_id": {
+        "$oid": "6ab4a4c6c1e2784b180d8a8d"
+      }
+    }
+  ],
+  "totalPrice": 130,
+  "totalCount": 2,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-24T04:19:18.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab4a64532cd22f489dc3673"
+  },
+  "items": [
+    {
+      "menuId": {
+        "$oid": "6a9f8412dc802ed46f247a17"
+      },
+      "name": "Latte",
+      "price": 50,
+      "quantity": 1,
+      "type": "Hot",
+      "_id": {
+        "$oid": "6ab4a64532cd22f489dc3674"
+      }
+    }
+  ],
+  "totalPrice": 50,
+  "totalCount": 1,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2026-09-24T04:25:41.272Z"
+  },
+  "__v": 0
+}]

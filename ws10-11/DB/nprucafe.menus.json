@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "6a87c576e16c6903b4eb2e09"
+  },
+  "name": "Americano",
+  "price": 65,
+  "type": "Hot",
+  "cat": "drink"
+},
+{
+  "_id": {
+    "$oid": "6a87c604e16c6903b4eb2e0d"
+  },
+  "name": "Cappuccino",
+  "price": 50,
+  "type": "Hot",
+  "cat": "drink"
+},
+{
+  "_id": {
+    "$oid": "6a87d56be16c6903b4eb2e0f"
+  },
+  "name": "Pie",
+  "price": 80,
+  "cat": "bakery"
+},
+{
+  "_id": {
+    "$oid": "6a87d610e16c6903b4eb2e11"
+  },
+  "name": "Muffin",
+  "price": 80,
+  "cat": "bakery"
+},
+{
+  "_id": {
+    "$oid": "6a9f8412dc802ed46f247a17"
+  },
+  "name": "Latte",
+  "price": 50,
+  "type": "Hot",
+  "cat": "drink",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9fb021fe05a23f7fe00763"
+  },
+  "name": "Coconut Cake",
+  "price": 120,
+  "type": "",
+  "cat": "bakery",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9fb1029f30a5c37b4955d5"
+  },
+  "name": "Cup Cake",
+  "price": 50,
+  "type": "",
+  "cat": "bakery",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a9fb2c3bc543e50761830c7"
+  },
+  "name": "Espresso",
+  "price": 50,
+  "type": "Hot",
+  "cat": "drink",
+  "__v": 0
+}]
