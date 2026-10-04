@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NPRU Cafe</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <img src="img/banner.png" alt="NPRU Cafe banner" class="logo">
+
+        <!-- หมวดหมู่สินค้า -->
+        <div class="category-container" style="text-align: center; margin-bottom: 20px;">
+            <button class="filter-btn" id="all">All Menu</button>
+            <button class="filter-btn" id="drink">Drinks</button>
+            <button class="filter-btn" id="bakery">Bakery</button>
+        </div>
+
+        <!-- Container หลักแบ่งซ้าย-ขวา -->
+        <div class="main-layout">
+
+            <!-- ฝั่งซ้าย: แสดงรายการเมนูอย่างเดียว -->
+            <div class="left-content">
+                <div id="menu-container">กำลังโหลดเมนู...</div>
+            </div>
+
+            <!-- ฝั่งขวา: ตะกร้าสินค้า และ ฟอร์มเพิ่มสินค้าอยู่ด้านล่าง -->
+            <div class="right-content">
+                
+
+                <!-- 2. ตะกร้าสินค้า -->
+                <div id="cart-section" class="cart-container">
+                    <h2>🛒 ตะกร้าสินค้า</h2>
+                    <div id="cart-items-list">
+                        <p class="empty-cart-msg">ยังไม่มีสินค้าในตะกร้า</p>
+                    </div>
+                    <div class="cart-summary">
+                        <p>จำนวนรวม: <span id="cart-total-count">0</span> ชิ้น</p>
+                        <p>ราคารวม: <strong id="cart-total-price">0.00</strong> บาท</p>
+                        <button id="checkout-btn" class="checkout-btn" disabled>ชำระเงิน</button>
+                    </div>
+                </div>
+
+                <!-- 2. ฟอร์มเพิ่มสินค้า (ต่อท้ายตะกร้า) -->
+                <div class="add-product-section">
+                    <h2>➕ เพิ่มสินค้า</h2>
+                    <form id="add-menu-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="ชื่อสินค้า" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="number" step="0.01" id="price" placeholder="ราคา (บาท)" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="type">
+                                <option value="">เลือกประเภท (เครื่องดื่ม)</option>
+                                <option value="Hot">ร้อน</option>
+                                <option value="iced">เย็น</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="cat" required>
+                                <option value="">เลือกหมวดหมู่</option>
+                                <option value="drink">เครื่องดื่ม</option>
+                                <option value="bakery">เบเกอรี่</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit-btn">เพิ่มสินค้า</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div> <!-- ปิด main-layout -->
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
